@@ -1,0 +1,6 @@
+{
+    "Lua.diagnostics.globals": [
+        "love"
+    ],
+    "lövelauncher.path": "C:\\docs\\gamedev\\love2d\\love-11.5-win64\\love.exe"
+}
