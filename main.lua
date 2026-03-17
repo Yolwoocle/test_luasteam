@@ -17,10 +17,3 @@ end
 function love.quit()
 	LuaSteam.Shutdown()
 end
-
-function love.keypressed(key)
-    if key == "space" then
-        LuaSteam.UserStats.SetAchievement("ACH_WIN_ONE_GAME")
-        LuaSteam.UserStats.StoreStats()
-    end
-end
